@@ -43,9 +43,9 @@ function Navbar() {
   
               <a href="#" className="text-gray-600 font-bold  hover:text-white px-3 py-2 rounded-md text-sm ">Home</a>
   
-              <a href="#" className="text-white  hover:text-white px-3 py-2 rounded-md text-sm font-bold">My Course</a>
+              <a href="#" className="text-gray-600  hover:text-white px-3 py-2 rounded-md text-sm font-bold">My Course</a>
   
-              <a href="#" className="text-gray-600  hover:text-white px-3 py-2 rounded-md text-sm font-bold">Browse Course</a>
+              <a href="#" className="text-white  hover:text-white px-3 py-2 rounded-md text-sm font-bold">Browse Course</a>
             </div>
           </div>
         </div>
@@ -89,7 +89,7 @@ function Navbar() {
             <AiOutlineWallet size={26} className="p-1" />
           </button>
 
-          <button type="button" className="rounded-full bg-white p-1 text-gray-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+          <button type="button" className="rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
             <span className="sr-only">User</span>
             <RiUser6Line size={26} className="p-1" />
           </button>  
