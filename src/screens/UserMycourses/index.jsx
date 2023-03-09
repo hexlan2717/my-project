@@ -8,18 +8,23 @@ function UserMycourse() {
 
   const transactions = [
     {
+      courseName: 'Lorem Ipsum',
       dateTime: new Date('2022-03-06T09:30:00Z'),
       transactionId: '1234567890',
       amountPaid: 99.99,
       status: 'completed'
     },
     {
+      courseName: 'Lorem Ipsum',
+
       dateTime: new Date('2022-03-06T13:15:00Z'),
       transactionId: '0987654321',
       amountPaid: 49.99,
       status: 'completed'
     },
     {
+      courseName: 'Lorem Ipsum',
+
       dateTime: new Date('2022-03-07T11:45:00Z'),
       transactionId: '2468101214',
       amountPaid: 149.99,
@@ -62,8 +67,11 @@ function UserMycourse() {
           <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8 sm:min-w-[62rem] ">
             <div class="overflow-x-auto">
               <table class="min-w-full text-left text-sm font-light sm:text-center">
-                <thead className="border-2 border-gray-300 rounded-t-4xl">
+                <thead className="border-2 border-gray-300 bg-gray-400 rounded-t-4xl">
                   <tr>
+                  <th scope="col" className="px-6 py-3 ">
+                      Course Name
+                    </th>
                     <th scope="col" className="px-6 py-3 ">
                       Date/Time
                     </th>
@@ -98,8 +106,11 @@ function UserMycourse() {
           <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8 sm:min-w-[62rem] ">
             <div class="overflow-x-auto">
               <table class="min-w-full text-left text-sm font-light sm:text-center">
-                <thead className="border-2 border-gray-300 rounded-t-4xl">
+                <thead className="border-2 bg-gray-400 rounded-t-4xl">
                   <tr>
+                  <th scope="col" className="px-6 py-3 ">
+                      Course Name
+                    </th>
                     <th scope="col" className="px-6 py-3 ">
                       Date/Time
                     </th>

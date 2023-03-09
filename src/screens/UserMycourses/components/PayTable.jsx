@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 function PayTable(props) {
 
- const { dateTime, transactionId, amountPaid, status } = props.transaction;
+ const { courseName ,dateTime, transactionId, amountPaid, status } = props.transaction;
 
  let statusClass = '';
  switch (status) {
@@ -22,6 +22,7 @@ function PayTable(props) {
 
   return (
     <tr>
+    <td className=" px-4 py-2">{courseName}</td>
     <td className=" px-4 py-2">{dateTime.toLocaleString()}</td>
     <td className=" px-4 py-2">{transactionId}</td>
     <td className=" px-4 py-2">{amountPaid.toFixed(2)}</td>
@@ -31,7 +32,7 @@ function PayTable(props) {
 }
 
 PayTable.propTypes = {
-
+  courseName: PropTypes.string,
   dateTime: PropTypes.instanceOf(Date),
   transactionId: PropTypes.string,
   amountPaid: PropTypes.number,
