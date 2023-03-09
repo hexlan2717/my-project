@@ -64,7 +64,7 @@ function UserMycourse() {
       </div>
       <div class="flex flex-col overflow-x-auto  ml-6 sm:ml-6">
         <div class="sm:-mx-6 lg:-mx-8">
-          <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8 sm:min-w-[62rem] ">
+          <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8 sm:min-w-[50rem] ">
             <div class="overflow-x-auto">
               <table class="min-w-full text-left text-sm font-light sm:text-center">
                 <thead className="border-2 border-gray-300 bg-gray-400 rounded-t-4xl">
@@ -103,7 +103,7 @@ function UserMycourse() {
       </div>
       <div class="flex flex-col overflow-x-auto  ml-6 sm:ml-6">
         <div class="sm:-mx-6 lg:-mx-8">
-          <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8 sm:min-w-[62rem] ">
+          <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8 sm:min-w-[50rem] ">
             <div class="overflow-x-auto">
               <table class="min-w-full text-left text-sm font-light sm:text-center">
                 <thead className="border-2 bg-gray-400 rounded-t-4xl">
