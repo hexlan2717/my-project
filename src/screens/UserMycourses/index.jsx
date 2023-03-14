@@ -62,10 +62,10 @@ function UserMycourse() {
     <div className="text-center mb-3 mt-6 sm:text-start sm: ml-6">
         <h1 className="text-2xl font-bold sm:text-base">My Courses</h1>
       </div>
-      <div class="flex flex-col overflow-x-auto  ml-6 sm:ml-6">
+      <div class="flex flex-col overflow-x-auto  ml-6 sm:ml-6 sm:overflow-x-hidden">
         <div class="sm:-mx-6 lg:-mx-8">
-          <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8 sm:min-w-[50rem] ">
-            <div class="overflow-x-auto">
+          <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8 sm:min-w-[78rem] ">
+            <div class=" overflow-x-auto sm:overflow-x-hidden">
               <table class="min-w-full text-left text-sm font-light sm:text-center">
                 <thead className="border-2 border-gray-300 bg-gray-400 rounded-t-4xl">
                   <tr>
@@ -101,10 +101,10 @@ function UserMycourse() {
       <div className="text-center mb-3 mt-9 sm:text-start sm: ml-6">
         <h1 className="text-2xl font-bold sm:text-base">Purchase History</h1>
       </div>
-      <div class="flex flex-col overflow-x-auto  ml-6 sm:ml-6">
+      <div class="flex flex-col  overflow-x-auto ml-6 sm:ml-6 sm:overflow-x-hidden">
         <div class="sm:-mx-6 lg:-mx-8">
-          <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8 sm:min-w-[50rem] ">
-            <div class="overflow-x-auto">
+          <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8 sm:min-w-[78rem] ">
+            <div class="overflowx-x-auto sm:overflow-x-hidden">
               <table class="min-w-full text-left text-sm font-light sm:text-center">
                 <thead className="border-2 bg-gray-400 rounded-t-4xl">
                   <tr>
